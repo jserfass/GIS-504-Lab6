@@ -1,12 +1,33 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+} 
+#overlay {
+  position:fixed;
+  z-index: 1000;
+  margin: 10px;
+  background-color: #52d0f7;
+  border: 1px solid #525355;
+  opacity: 0.9;
+  height: fit-content;
+  width: 1000px;
+  padding: 10px;
+  top: 0;
+  left: 50%;
+  margin-left: -500px;
+               }
 #map{
   width: 100%;
-  height: 98vh;
+  height: 100%;
 }
 h1 {
   font-family: Georgia, sans-serif;
   color: #525355;
   font-size: 50px;
-  text-shadow: 6px 6px 15px white;
+ 
   font-weight: bold;
   text-align: center;
 }
@@ -16,12 +37,4 @@ h2 {
   font-size: 20px;
   text-align: center;
 }
-#transbox {
-  margin: 10px;
-  background-color: #ccf3b6;
-  border: 1px solid #525355;
-  opacity: 0.7;
-  height: fit-content;
-  width: fit-content;
-  padding: 5px;
-               }
+             
